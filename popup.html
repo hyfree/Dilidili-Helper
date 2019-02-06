@@ -1,0 +1,102 @@
+<html>
+
+<head>
+        <meta charset="UTF-8">
+    <style>
+        body {
+    width: 300px;
+   
+    padding-top: 5px;
+    text-align: center;
+}
+@font-face{
+    /*字体用于学习用途*/
+    font-family: 'hkww';
+    src: url('font/hkww.ttf');
+}
+    </style>
+    <link rel="stylesheet" href="css/SlideButton.css">
+</head>
+
+<body>
+    <span style="margin-bottom: 5px;font-family: hkww;font-size: 20px">嘀哩嘀哩助手 Version0.1</span>
+  <!-- 插件会将网页上绝大数广告 ，面积设置成1px，透明度100%,绝对定位并移动到不可见的区域。广告仍处于活动状态。-->
+  <!-- 另外 ：这个功能可能导致网页崩溃 -->
+  <!-- 插件不建议开启此功能 ，默认禁用。仍需要开启请修改JS代码，将false设置为true -->
+    <div style=" user-select:none;text-align: center;vertical-align:middle;">
+            阻断网页广告
+            <div class="slide-btn" style="vertical-align:middle" >
+                <div class="inner-on" id="AdKill">
+                    <input style="display:none;" type="checkbox" checked>
+                    <span class="left">ON</span><span class="space"> </span><span class="right">OFF</span>
+                </div>
+            </div>
+    </div>
+    <!-- 优化自带的百度站内搜索 -->
+    <div style=" user-select:none;text-align: center;vertical-align:middle;">
+            优化搜索结果
+            <div class="slide-btn" style="vertical-align:middle" >
+                <div class="inner-on" id="SearchButton">
+                    <input style="display:none;" type="checkbox" checked>
+                    <span class="left">ON</span><span class="space"> </span><span class="right">OFF</span>
+                </div>
+            </div>
+    </div>
+    <!-- 将网站常用的CSS和JS库预加载，会导致与网站最新版本不一致 -->
+    <div style=" user-select:none;text-align: center;vertical-align:middle;">
+           国内用户加速
+            <div class="slide-btn" style="vertical-align:middle" >
+                <div class="inner-on" id="gnjs">
+                    <input style="display:none;" type="checkbox" checked>
+                    <span class="left">ON</span><span class="space"> </span><span class="right">OFF</span>
+                </div>
+            </div>
+    </div>
+    <!-- 将D站常用的CSS和JS库预加载，会导致与网站最新版本不一致 -->
+    <div style=" user-select:none;text-align: center;vertical-align:middle;">
+            国外用户加速
+            <div class="slide-btn" style="vertical-align:middle" >
+                <div class="inner-on" id="gnjs">
+                    <input style="display:none;" type="checkbox" checked>
+                    <span class="left">ON</span><span class="space"> </span><span class="right">OFF</span>
+                </div>
+            </div>
+    </div>
+    <!-- 插件会尝试使用H5播放器替换网页中的第三方播放器，可能导致网页崩溃。 -->
+    <div style=" user-select:none;text-align: center;vertical-align:middle;">
+            强制H5播放器
+            <div class="slide-btn" style="vertical-align:middle" >
+                <div class="inner-on" id="h5yes">
+                    <input style="display:none;" type="checkbox" checked>
+                    <span class="left">ON</span><span class="space"> </span><span class="right">OFF</span>
+                </div>
+            </div>
+    </div>
+    <!-- 加载弹幕 -->
+    <div style=" user-select:none;text-align: center;vertical-align:middle;">
+            播放加载弹幕
+            <div class="slide-btn" style="vertical-align:middle" >
+                <div class="inner-on" id="danmuYes">
+                    <input style="display:none;" type="checkbox" checked>
+                    <span class="left">ON</span><span class="space"> </span><span class="right">OFF</span>
+                </div>
+            </div>
+    </div>
+    <!--  检索视频来源：通过百度等搜索引擎搜索类似视频，以画中画的形式嵌入到替换网页中的Video。相似视频由第三方机器生产，不可预测。视频由第三方提供。 -->
+    <!-- 当资源提供方关闭时，插件会搜索其他提供商。所得视频来源，由百度等引擎和第三方提供，请自行甄别真伪 -->
+    <!-- 话说怪怪的= = -->
+    <div style=" user-select:none;text-align: center;vertical-align:middle;">
+            更多视频来源
+            <div class="slide-btn" style="vertical-align:middle" >
+                <div class="inner-on" id="MoreVideo">
+                    <input style="display:none;" type="checkbox" checked>
+                    <span class="left">ON</span><span class="space"> </span><span class="right">OFF</span>
+                </div>
+            </div>
+    </div>
+   github：lbocemgkpfjapahllnfndjhacenhijll
+    </div>
+    <script src="js/SlideButton.js"></script>
+</body>
+
+</html>
